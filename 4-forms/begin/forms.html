@@ -14,7 +14,8 @@
           one of our fine UFOs.
         </p>
 
-        <form action="">
+        <form action="https://e3vwdl4bpd.execute-api.us-west-2.amazonaws.com/default/API2SES" method="POST">
+          <input type="hidden" name="send_to" value="andystuckey@mail.com">
           <fieldset>
             <legend>Your contact information</legend>
             <label for="name">Your name</label>
@@ -59,6 +60,7 @@
               <input type="checkbox" value="subscribe" name="subscribe" id="subscribe" checked> Add me to your email list!
             </label>
             </fieldset>
+            <button type="submit">Submit</button>
         </form>
       </section>
       <aside>
